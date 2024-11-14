@@ -1,0 +1,3 @@
+[submodule "eos423-private"]
+	path = eos423-private
+	url = https://github.com/blakedyer/eos423-private
