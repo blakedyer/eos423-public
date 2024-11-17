@@ -1,24 +1,11 @@
 EOS423: Advanced Sedimentology and Stratigraphy
--------------------------------------------------------------------
+=====================================================
+
+.. include:: Outline/text/course_description.tex
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Outline
-   :glob:
+   :maxdepth: 2
 
-   Outline/outline.rst
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Lectures
-   :glob:
-
-   Lectures/*
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Labs
-   :glob:
-
-   Labs/*
-   
+   Course outline <Outline/outline.rst>
+   lectures
+   .. labs
