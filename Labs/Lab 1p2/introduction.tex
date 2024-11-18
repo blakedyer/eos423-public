@@ -1,0 +1,121 @@
+In this lab you will develop a transport model that is considerably more flexible than your previous approach. This new model will be used to explore how sediment flux and relative sea level impact transport and stratigraphy.
+
+\section*{Bulk sediment transport: diffusion}
+The change of elevation over time is proportional to the second partial derivative of the topography with respect to space (the curvature). This equation is sometimes referred to as the \textit{hillslope application} of the \textbf{diffusion equation}:
+
+\begin{equation*}
+	\dfrac{\partial h}{\partial t} = K \dfrac{\partial^2 h}{\partial x^2} \label{eq:diff}\tag{diffusion equation}
+\end{equation*}
+
+The diffusion equation is derived from combining the  \textbf{continuity equation}, which expresses the conservation of mass:
+
+\begin{equation*}
+	\dfrac{\partial h}{\partial t} = - \dfrac{\partial S}{\partial x} \label{eq:cont}\tag{continuity equation}
+\end{equation*}
+
+with an expression of sediment transport rate, $S$, as a \textbf{diffusive flux}. In this formulation, $S$ is linearly proportional to slope:
+
+\begin{equation*} S = - K \dfrac{\partial h}{\partial x}\tag{diffusive flux}
+\end{equation*}
+
+In part \textbf{1.1} of this assignment we looked at a specific application of bulk (diffusive) transport with an \emph{analytical} solution. This you will be designing a numerical model of bulk transport using an \emph{implicit} finite difference scheme (specifically the Crank-Nicolson algorithm). The questions below are designed to showcase that your model is correctly solving the diffusion equation.
+
+\section*{Crank-Nicholson implicit scheme}
+The Crank-Nicolson method is numerically stable, implicit, and second-order in time --~$O(\Delta t^2)$. The method solves for the next time-step iteration of the system by taking the average of the central-difference estimate of the second partial derivative of the topography with respect to space at both the current time step and the future timestep. {\color{red}Red} terms are unknown at the current timestep (this is the \emph{implicit} part of the numerical method).
+
+\begin{equation*}
+	\dfrac{{\color{red}h_{i}^{t+\Delta t}}
+	- h_i^t}{\Delta t}
+	=
+	\dfrac{K}{2}
+	\left(
+	\dfrac{
+		h_{i-\Delta x}^{t}
+		-
+		2~h_{i}^{t}
+		+
+		h_{i+\Delta x}^{t}
+	}
+	{
+		\Delta x^2
+	}
+	+
+	\dfrac{
+		{\color{red}
+			h_{i-\Delta x}^{t+\Delta t}
+		}
+		-
+		2~{\color{red}
+			h_{i}^{t+\Delta t}
+		}
+		+
+		{\color{red}
+			h_{i+\Delta x}^{t+\Delta t}
+		}
+	}
+	{
+		\Delta x^2
+	}
+	\right)
+	\\
+\end{equation*}
+
+
+\noindent It is useful to define $r$ as (this number is sometimes called the Fourier number):
+
+
+\begin{equation*}
+	r=K\dfrac{\Delta t}{2~\Delta x^2}
+	\tag{Fourier number}
+\end{equation*}
+
+
+\noindent to simplify the equation to the following form:
+
+
+\begin{equation*}
+	{\color{red}h_{i}^{t+\Delta t}}
+	-
+	h_i^t
+	=
+	r~(h_{i-\Delta x}^{t}
+	-
+	2~h_{i}^{t}
+	+
+	h_{i+\Delta x}^{t}
+	+
+	{\color{red}
+	h_{i-\Delta x}^{t+\Delta t}}
+	-
+	2~{\color{red}h_{i}^{t+\Delta t}}
+	+
+	{\color{red}h_{i+\Delta x}^{t+\Delta t}})
+	\\
+\end{equation*}
+
+
+\noindent This equation forms a system of linear equations that can be rearranged and solved using linear algebra. The general form of your problem (once you have collected unknowns on one side and knowns on the other) will be:
+
+
+
+\begin{equation*}
+	A
+	{\color{red}h^{t+\Delta t} }
+	=
+	Bh^{t}
+	+
+	b^{t}
+\end{equation*}
+
+
+\noindent where $A$ and $B$ are square matrices with whose side-length is equal to the length of $h$ and $b$ is a vector of boundary conditions (additional flux in or out of each finite element in $h_i$). The matrix equation above is solved by multiplying both sides by $A^{-1}$:
+
+
+\begin{equation*}
+	{\color{red}h^{t+\Delta t} }
+	=
+	A^{-1}(Bh^{t}
+	+
+	b^{t})
+\end{equation*}
+

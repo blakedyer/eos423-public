@@ -8,4 +8,4 @@ EOS423: Advanced Sedimentology and Stratigraphy
 
    Course outline <Outline/outline.rst>
    lectures
-   .. labs
+   labs
