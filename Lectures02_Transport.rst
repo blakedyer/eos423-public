@@ -1,16 +1,14 @@
 Lecture 2: Simplifying Surface Transport
 =====================================================   
 
-Links for full screen web viewing
+Link for full screen web viewing
 ------------------------------------------
 Spacebar to advance, shift+spacebar to go backwards, escape for overview.
 
 `Lecture 2: Simplifying Surface Transport <../_static/Lectures02_Transport.slides.html>`_
 
 
-Links for PDF/printing
+PDF download
 ------------------------
 
-To generate a PDF, click the link then go to print-->save as PDF in your browser.
-
-`Lecture 2: Simplifying Surface Transport <../_static/Lectures02_Transport.slides.html?print-pdf>`_
+:download:`Lecture 2: Simplifying Surface Transport <Lectures/pdf_slides/Lectures02_Transport.pdf>`
