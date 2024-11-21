@@ -7466,7 +7466,7 @@ main {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <center><div style="background: url(images/SA_seds.jpg) 50% 35% no-repeat;
   width: 100vw;
-  height: 30vh; background-size: 100%;">
+  height: 20vh; background-size: 100%;">
 </div></center>
 </div>
 </div>
@@ -7503,6 +7503,17 @@ main {
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div style="font-size:25px"> <i>We acknowledge and respect the lək̓ʷəŋən peoples on whose traditional territory the university stands and the Songhees, Esquimalt and W̱SÁNEĆ peoples whose historical relationships with the land continue to this day.</i></div>
+</div>
+</div>
+</div>
 </div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -7521,18 +7532,14 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<center>
-<div style="height:60vh;float: left;
-  width: 50%;
-  padding: 5px;">
+<div data-id="columns" style="display:flex;height:60vh">
+<div class="clearpanel_start" style="visibility: visible;">
 <img alt="No description has been provided for this image" src="images/rhine_map.jpg" style="height:60vh"/>
 </div>
-<div style="height:60vh;float: left;
-  width: 50%;
-  padding: 5px;">
+<div class="clearpanel" style="visibility: visible;">
 <img alt="No description has been provided for this image" src="images/rhine_data.jpg" style="height:60vh"/>
 </div>
-</center>
+</div>
 </div>
 </div>
 </div>
@@ -7699,7 +7706,7 @@ $$\begin{equation}
 K \dfrac{\partial^2 h}{\partial x^2}
 \end{equation}$$
 <center>
-<div style="height:40vh;">
+<div style="height:30vh;">
 <p>
 </p></div>
 </center>
@@ -7745,7 +7752,7 @@ f'(x)
 =
 \dfrac{\Delta f}{\Delta x}
 $$<center>
-<div style="height:40vh;">
+<div style="height:30vh;">
 <p>
 </p></div>
 </center>
@@ -8812,35 +8819,7 @@ r=K\dfrac{\Delta t}{2~\Delta x^2}
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Which simplifies our equation to:
 $$\begin{equation*} 
-\color{red}{h_{i}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>h_i^t 
-\approx
-r~(h_{i-\Delta x}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>2~h_{i}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>h_{i+\Delta x}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>\color{red}{
-h_{i-\Delta x}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>2~\color{red}{h_{i}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>\color{red}{h_{i+\Delta x}^{t+\Delta t}})
-\
+\color{red}{h_{i}^{t+\Delta t}}-h_i^t \approx r~(h_{i-\Delta x}^{t} - 2~h_{i}^{t} + h_{i+\Delta x}^{t}+\color{red}{h_{i-\Delta x}^{t+\Delta t}}-2~\color{red}{h_{i}^{t+\Delta t}}+\color{red}{h_{i+\Delta x}^{t+\Delta t}})
 \end{equation*} $$</p>
 </div>
 </div>
@@ -8854,35 +8833,7 @@ h_{i-\Delta x}^{t+\Delta t}}</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Crank-Nicolson finite difference approximation to the 1D diffusion equation:
 $$\begin{equation*} 
-\color{red}{h_{i}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>h_i^t 
-\approx
-r~(h_{i-\Delta x}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>2~h_{i}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>h_{i+\Delta x}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>\color{red}{
-h_{i-\Delta x}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>2~\color{red}{h_{i}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>\color{red}{h_{i+\Delta x}^{t+\Delta t}})
-\
+\color{red}{h_{i}^{t+\Delta t}}-h_i^t \approx r~(h_{i-\Delta x}^{t} - 2~h_{i}^{t} + h_{i+\Delta x}^{t}+\color{red}{h_{i-\Delta x}^{t+\Delta t}}-2~\color{red}{h_{i}^{t+\Delta t}}+\color{red}{h_{i+\Delta x}^{t+\Delta t}})
 \end{equation*} $$</p>
 </div>
 </div>
@@ -8912,35 +8863,7 @@ h_{i-\Delta x}^{t+\Delta t}}</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Crank-Nicolson solution to the diffusion equation:
 $$\begin{equation*} 
-\color{red}{h_{i}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>h_i^t 
-=
-r~(h_{i-\Delta x}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>2~h_{i}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>h_{i+\Delta x}^{t}</p>
-<ul>
-<li></li>
-</ul>
-<p>\color{red}{
-h_{i-\Delta x}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>2~\color{red}{h_{i}^{t+\Delta t}}</p>
-<ul>
-<li></li>
-</ul>
-<p>\color{red}{h_{i+\Delta x}^{t+\Delta t}})
-\
+\color{red}{h_{i}^{t+\Delta t}}-h_i^t \approx r~(h_{i-\Delta x}^{t} - 2~h_{i}^{t} + h_{i+\Delta x}^{t}+\color{red}{h_{i-\Delta x}^{t+\Delta t}}-2~\color{red}{h_{i}^{t+\Delta t}}+\color{red}{h_{i+\Delta x}^{t+\Delta t}})
 \end{equation*} $$</p>
 </div>
 </div>
