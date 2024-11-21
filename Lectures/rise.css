@@ -1,4 +1,16 @@
-
+.output_png {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.jp-RenderedImage {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.prompt 
+    display:none;
+    
 :root {
   --r-tropical-color: #CD4F38;
   --r-ice-color: #67B9E9;
