@@ -5,10 +5,12 @@ Lab assignments
 
    This webpage was last updated on |date| at |time|.
 
+Lab assignments will be added here throughout the term.
+
 .. .. toctree::
 ..    :glob:
 
 ..    Labs/*/lab
 
 .. |date| date:: %b %d, %Y
-.. |time| date:: %H:%M
+.. |time| date:: %I:%M %p %Z

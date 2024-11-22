@@ -15,4 +15,4 @@ EOS423: Advanced Sedimentology and Stratigraphy
    labs
 
 .. |date| date:: %b %d, %Y
-.. |time| date:: %H:%M
+.. |time| date:: %I:%M %p %Z

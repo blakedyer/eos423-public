@@ -4,7 +4,9 @@ Lecture slides
 .. admonition:: Course currently active
 
    This webpage was last updated on |date| at |time|.
-   
+
+Lecture slides will be added here throughout the term.
+
 .. .. toctree::
 ..    :maxdepth: 1
 
@@ -21,4 +23,4 @@ Lecture slides
 ..    Lectures20_Maldives.rst
    
 .. |date| date:: %b %d, %Y
-.. |time| date:: %H:%M
+.. |time| date:: %I:%M %p %Z
