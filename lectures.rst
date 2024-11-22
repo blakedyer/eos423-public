@@ -1,6 +1,10 @@
 Lecture slides
 ==========================
 
+.. admonition:: Course currently active
+
+   This webpage was last updated on |date| at |time|.
+   
 .. toctree::
    :maxdepth: 1
 
@@ -16,3 +20,5 @@ Lecture slides
    Lectures18-19_Carbonates.rst
    Lectures20_Maldives.rst
    
+.. |date| date:: %b %d, %Y
+.. |time| date:: %H:%M

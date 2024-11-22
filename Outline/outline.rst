@@ -1,6 +1,10 @@
 Outline
 ====================
 
+.. admonition:: Course currently active
+
+   This webpage was last updated on |date| at |time|.
+
 :download:`Course Outline (pdf) <Outline.pdf>`
 
 
@@ -39,5 +43,8 @@ Weekly Calendar
 
 .. raw:: html
    :file: html/calendar.html
+
+.. |date| date:: %b %d, %Y
+.. |time| date:: %H:%M
 
 
