@@ -1,9 +1,9 @@
 Lab assignments
 ==========================
 
-.. admonition:: Course currently active
-
-   This webpage was last updated on |date| at |time|.
+.. tip:: 
+   
+   This page is on the development branch
 
 .. toctree::
    :glob:
@@ -13,5 +13,3 @@ Lab assignments
 .. |date| date:: %b %d, %Y
 .. |time| date:: %H:%M
     
-.. |date| date:: %b %d, %Y
-.. |time| date:: %H:%M
