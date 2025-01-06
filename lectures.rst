@@ -7,10 +7,10 @@ Lecture slides
 
 Lecture slides will be added here throughout the term.
 
-.. .. toctree::
-..    :maxdepth: 1
+.. toctree::
+   :maxdepth: 1
 
-..    Lectures01_Intro.rst
+   Lectures01_Intro.rst
 ..    Lectures02_Transport.rst
 ..    Lectures03_KenyonTurcott.rst
 ..    Lectures04-6_NumericalTransport.rst
