@@ -7,10 +7,10 @@ Lab assignments
 
 Lab assignments will be added here throughout the term.
 
-.. .. toctree::
-..    :glob:
-
-..    Labs/*/lab
+.. toctree::
+   :glob:
+   
+   Labs/Lab*1p1/lab
 
 .. |date| date:: %b %d, %Y
 .. |time| date:: %I:%M %p %Z
