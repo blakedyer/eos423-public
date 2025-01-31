@@ -12,6 +12,7 @@ Lab assignments will be added here throughout the term.
    
    Labs/Lab*1p1/lab
    Labs/Lab*1p2/lab
+   Labs/Lab*1p3/lab
 
 .. |date| date:: %b %d, %Y
 .. |time| date:: %I:%M %p %Z
