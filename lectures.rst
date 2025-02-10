@@ -16,7 +16,7 @@ Lecture slides will be added here throughout the term.
    Lectures04-6_NumericalTransport.rst
    Lectures06_StratigraphicSequences.rst
    Lectures07-Sequences-activity.rst
-   Lecture08.rst
+   Lectures08_Time.rst
 ..    Lectures07-9_StratigraphicSequences.rst
 ..    Lectures10-13_StratigraphicTime.rst
 ..    Lectures14-15_Cycles.rst
