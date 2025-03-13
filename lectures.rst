@@ -19,6 +19,7 @@ Lecture slides will be added here throughout the term.
    Lectures08_Time.rst
    Lectures09_423.rst
    Lecture10_Cycles.rst
+   Lectures11_HinGold_disc.rst
 ..    Lectures07-9_StratigraphicSequences.rst
 ..    Lectures10-13_StratigraphicTime.rst
 ..    Lectures14-15_Cycles.rst
