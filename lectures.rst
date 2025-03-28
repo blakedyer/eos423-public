@@ -22,6 +22,7 @@ Lecture slides will be added here throughout the term.
    Lectures11_HinGold_disc.rst
    Lectures12_AgeModels.rst
    Lectures13_AgeModelsCarb.rst
+   Lectures14_CarbPoisson.rst
 ..    Lectures07-9_StratigraphicSequences.rst
 ..    Lectures10-13_StratigraphicTime.rst
 ..    Lectures14-15_Cycles.rst
