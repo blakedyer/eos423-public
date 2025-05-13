@@ -1,9 +1,9 @@
 Lab 1.3: Sedimentary Transport (Applying the Numerical Model)
 --------------------------------------------------------------- 
 
-.. admonition:: Course currently active
+.. attention::
 
-   This webpage was last updated on |date| at |time|.
+   Course completed Spring 2025.
 
 Download PDF
 *********************

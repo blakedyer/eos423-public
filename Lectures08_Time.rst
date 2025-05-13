@@ -1,9 +1,9 @@
 Lecture 8: Stratigraphic time part I
 ===================================================== 
 
-.. admonition:: Course currently active
+.. attention::
 
-   This webpage was last updated on |date| at |time|.
+   Course completed Spring 2025.
 
 Link for full screen web viewing
 ------------------------------------------

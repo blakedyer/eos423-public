@@ -1,9 +1,9 @@
 Lab 1.2: Sedimentary Transport (Numerical Model)
 ------------------------------------------------ 
 
-.. admonition:: Course currently active
+.. attention::
 
-   This webpage was last updated on |date| at |time|.
+   Course completed Spring 2025.
 
 Download PDF
 *********************

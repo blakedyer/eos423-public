@@ -1,9 +1,9 @@
 EOS423: Advanced Sedimentology and Stratigraphy
 =====================================================
 
-.. admonition:: Course currently active
+.. attention::
 
-   This webpage was last updated on |date| at |time|.
+   Course completed Spring 2025.
    
 .. include:: Outline/text/course_description.tex
 

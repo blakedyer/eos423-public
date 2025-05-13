@@ -1,9 +1,9 @@
 Lab assignments
 ==========================
 
-.. admonition:: Course currently active
+.. attention::
 
-   This webpage was last updated on |date| at |time|.
+   Course completed Spring 2025.
 
 Lab assignments will be added here throughout the term.
 
