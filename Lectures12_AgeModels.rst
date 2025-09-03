@@ -1,9 +1,7 @@
 Lecture 12: Age models
 ===================================================== 
 
-.. attention::
-
-   Course completed Spring 2025.
+.. include:: header.rst
 
 Link for full screen web viewing
 ------------------------------------------

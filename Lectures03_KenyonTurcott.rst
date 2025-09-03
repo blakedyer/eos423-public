@@ -1,9 +1,7 @@
 Lecture 3: Discussion of Kenyon and Turcotte (1985)
 ===================================================== 
 
-.. attention::
-
-   Course completed Spring 2025.
+.. include:: header.rst
 
 Link for full screen web viewing
 ------------------------------------------

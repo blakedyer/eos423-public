@@ -1,9 +1,8 @@
 Lab 3.1: Modeling carbonates and their ages
 --------------------------------------------------------------- 
 
-.. attention::
+.. include:: ../../header.rst
 
-   Course completed Spring 2025.
 
 Download PDF
 *********************

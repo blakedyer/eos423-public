@@ -1,9 +1,8 @@
 Lab 1.2: Sedimentary Transport (Numerical Model)
 ------------------------------------------------ 
 
-.. attention::
+.. include:: ../../header.rst
 
-   Course completed Spring 2025.
 
 Download PDF
 *********************

@@ -1,9 +1,7 @@
 Lecture 13: Age models part 2
 ===================================================== 
 
-.. attention::
-
-   Course completed Spring 2025.
+.. include:: header.rst
 
 Link for full screen web viewing
 ------------------------------------------

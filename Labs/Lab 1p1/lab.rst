@@ -1,9 +1,7 @@
 Lab 1.1: Sedimentary Transport
 ------------------------------------------------ 
 
-.. attention::
-
-   Course completed Spring 2025.
+.. include:: ../../header.rst
 
 Download PDF
 *********************

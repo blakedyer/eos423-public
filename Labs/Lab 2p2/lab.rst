@@ -1,9 +1,8 @@
 Lab 2.2: Using Fourier Analysis to interpret Modeled Basins
 --------------------------------------------------------------- 
 
-.. attention::
+.. include:: ../../header.rst
 
-   Course completed Spring 2025.
 
 Download PDF
 *********************

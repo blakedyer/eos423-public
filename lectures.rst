@@ -1,9 +1,7 @@
 Lecture slides
 ==========================
 
-.. attention::
-
-   Course completed Spring 2025.
+.. include:: header.rst
 
 Lecture slides will be added here throughout the term.
 

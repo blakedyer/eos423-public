@@ -1,9 +1,8 @@
 Lab 2.1: Practice with Fourier Analysis
 --------------------------------------------------------------- 
 
-.. attention::
+.. include:: ../../header.rst
 
-   Course completed Spring 2025.
 
 Download PDF
 *********************

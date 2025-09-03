@@ -1,9 +1,7 @@
 Outline
 ====================
 
-.. attention::
-
-   Course completed Spring 2025.
+.. include:: ../header.rst
 
 :download:`Course Outline (pdf) <Outline.pdf>`
 

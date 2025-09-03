@@ -1,9 +1,7 @@
 Lecture 14: Carbonates and Poisson-Gamma Age models
 ===================================================== 
 
-.. attention::
-
-   Course completed Spring 2025.
+.. include:: header.rst
 
 Link for full screen web viewing
 ------------------------------------------

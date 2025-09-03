@@ -1,9 +1,7 @@
 Lab assignments
 ==========================
 
-.. attention::
-
-   Course completed Spring 2025.
+.. include:: header.rst
 
 Lab assignments will be added here throughout the term.
 
