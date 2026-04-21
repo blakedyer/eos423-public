@@ -7,6 +7,7 @@ Lab assignments will be added here throughout the term.
 
 .. toctree::
    :glob:
+   :titlesonly:
    
    Labs/Lab*1p1/lab
    Labs/Lab*1p2/lab
